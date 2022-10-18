@@ -1,5 +1,7 @@
 package io.github.simonnozaki.tinypayer.domain
 
+import io.github.simonnozaki.tinypayer.domain.order.Amount
+
 /**
  * 支払い状況
  */

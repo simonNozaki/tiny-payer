@@ -1,6 +1,6 @@
 package io.github.simonnozaki.tinypayer.domain.request
 
-import io.github.simonnozaki.tinypayer.domain.Amount
+import io.github.simonnozaki.tinypayer.domain.order.Amount
 import java.time.LocalDateTime
 import java.util.UUID
 

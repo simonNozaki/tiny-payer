@@ -1,4 +1,4 @@
-package io.github.simonnozaki.tinypayer.domain
+package io.github.simonnozaki.tinypayer.domain.order
 
 data class Amount(
     val value: Int
