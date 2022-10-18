@@ -1,6 +1,5 @@
 package io.github.simonnozaki.tinypayer.domain.order
 
-import io.github.simonnozaki.tinypayer.domain.Amount
 import io.github.simonnozaki.tinypayer.domain.PaymentState
 import java.time.LocalDateTime
 
@@ -11,6 +10,7 @@ data class Order (
     val id: String,
     val paymentState: PaymentState,
     val amount: Amount,
+    val items: Map<Item, Quantity>,
     val orderedAt: LocalDateTime
 ) {
     /**
